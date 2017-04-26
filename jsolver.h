@@ -9,6 +9,12 @@ enum{forward,backward}; //line direction. forward - solve line from left to righ
 
 enum{unknown,black,white}; //Value of cells of game board
 
+class Cell
+{
+public:
+	int value;
+}
+
 class Puzzle
 {
 	int n[n_orientations]; //number of rows and columns of a game board
